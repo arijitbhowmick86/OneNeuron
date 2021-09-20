@@ -16,7 +16,8 @@ GIT Steps
 8. git commit -m "First Commit"  -- Commits changes from staging to repo
 9. git push origin main  --Pushing code to main branch after commit
 10. git checkout <a014346ca809af815df324f980ae03e0704f66c1>  -- Workspace moved to revision id.Id copied from a revision of commits in github
-
+11. git branch  -- To check which branch is being used
+12. git checkout main  -- Checks out the head revision of main branch
 
 Python new environment per project to manage python version : 
 
