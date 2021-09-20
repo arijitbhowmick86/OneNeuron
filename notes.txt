@@ -9,8 +9,13 @@ GIT Steps
 5. mkdir <diretory name> to create a directory
 6. touch <filename.extension> to create any new file. This text file was created using the below command
     touch notes.txt
- 
-
+7.  One time activity to connect git with the correct user profile
+    git config --global user.email "arijitbhowmick86@gmail.com"
+    git config --global user.name "arijitbhowmick86"
+7. git add .  -- Adds all the changes, . means all, to the staging area
+8. git commit -m "First Commit"  -- Commits changes from staging to repo
+9. git push origin main  --Pushing code to main branch after commit
+    
 
 
 Python new environment per project to manage python version : 
@@ -30,4 +35,6 @@ conda activate OneNeuron
 Python 
 
 pip install -r  libraryRequired.txt  -- Mentioned all the required packages in the file libraryRequired.txt instead of doing it one be one
+
+
 
