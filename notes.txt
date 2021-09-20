@@ -15,7 +15,7 @@ GIT Steps
 7. git add .  -- Adds all the changes, . means all, to the staging area
 8. git commit -m "First Commit"  -- Commits changes from staging to repo
 9. git push origin main  --Pushing code to main branch after commit
-    
+10. git checkout <a014346ca809af815df324f980ae03e0704f66c1>  -- Workspace moved to revision id.Id copied from a revision of commits in github
 
 
 Python new environment per project to manage python version : 
@@ -30,11 +30,7 @@ source C:/Users/Arijit/anaconda3/etc/profile.d/conda.sh  -- This is required if 
 
 conda activate OneNeuron
 
+pip install -r  libraryRequired.txt  -- Mentioned all the required packages in the file libraryRequired.txt instead of doing it one be one. Needs to be done in every new env
 
-
-Python 
-
-pip install -r  libraryRequired.txt  -- Mentioned all the required packages in the file libraryRequired.txt instead of doing it one be one
-
-
+history -- Gives all the executed commands in the current session in VS Code terminal
 
