@@ -1,0 +1,33 @@
+GIT Steps
+
+1. Create a new repo in git hub website
+2. Create a blank folder in local
+3. Open vs from that folder
+4. From github, copy the path from the Code option and use the command
+    git clone <copied path>
+    This creates a clone in the workspace
+5. mkdir <diretory name> to create a directory
+6. touch <filename.extension> to create any new file. This text file was created using the below command
+    touch notes.txt
+ 
+
+
+
+Python new environment per project to manage python version : 
+
+conda env list
+
+conda create -n OneNeuron python=3.7 -y
+
+conda env remove -n OneNeuron
+
+source C:/Users/Arijit/anaconda3/etc/profile.d/conda.sh  -- This is required if the path is not set properly to activate new env
+
+conda activate OneNeuron
+
+
+
+Python 
+
+pip install -r  libraryRequired.txt  -- Mentioned all the required packages in the file libraryRequired.txt instead of doing it one be one
+
