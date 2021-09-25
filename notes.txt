@@ -30,6 +30,8 @@ conda env remove -n OneNeuron
 source C:/Users/Arijit/anaconda3/etc/profile.d/conda.sh  -- This is required if the path is not set properly to activate new env
 
 conda activate OneNeuron
+        or 
+source activate OneNeuron
 
 pip install -r  libraryRequired.txt  -- Mentioned all the required packages in the file libraryRequired.txt instead of doing it one be one. Needs to be done in every new env
 
