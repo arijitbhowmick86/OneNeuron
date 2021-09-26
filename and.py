@@ -1,15 +1,9 @@
-# OneNeuron
-Single Perceptron
 
-
-## Add url  -- Visit readme.so website for more info
-[Git Hub][https://github.com/arijitbhowmick86/OneNeuron]
-
-## Add Image
-![Image][]
-
-## Main function
-```python
+from utils.perceptron import Perceptron
+import pandas as pd
+from utils.utils import save_model, load_model, set_up_logger
+import logging
+import os
 
 def main():
     
@@ -36,4 +30,5 @@ def main():
 
     logging.info("Exiting main method")
 
-```
+if __name__ == '__main__':
+    main()
